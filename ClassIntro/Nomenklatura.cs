@@ -11,5 +11,9 @@ namespace ClassIntro
         public string Adi { get; set; }
         public int Qiymeti { get; set; }
         public string İzahi { get; set; }
+
+
+
+
     }
 }
