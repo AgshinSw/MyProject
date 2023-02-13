@@ -1,5 +1,7 @@
 ﻿using System;
 
+
+
 namespace ClassIntro
 {
     class Program
@@ -47,15 +49,17 @@ namespace ClassIntro
             nomenklatura3.Qiymeti = 167;
             nomenklatura3.İzahi = "Qara qapı";
 
+
             Nomenklatura[] mallar = new Nomenklatura[] { nomenklatura1, nomenklatura2, nomenklatura3 };
 
             foreach (var item in mallar)
-
-            {
+             {
                 Console.WriteLine(item.Adi + " " + item.Qiymeti + " " + item.İzahi);
-                NomenklaturaElaveEden nomenklaturaelaveeden = new NomenklaturaElaveEden();
+                 NomenklaturaElaveEden nomenklaturaelaveeden = new NomenklaturaElaveEden();
                 nomenklaturaelaveeden.ElaveEt(item.Adi);
-            }
+             }
+
+
 
 
 

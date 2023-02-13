@@ -31,11 +31,6 @@ namespace MyProject
             Console.WriteLine(result);
 
 
-            //reqemprosda();
-
-
-
-
 
         }
 
